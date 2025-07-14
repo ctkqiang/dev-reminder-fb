@@ -3,13 +3,14 @@
   "displayName": "Dev Reminder (FB edition)",
   "description": "一个柔和的伪娘风格的 VS Code 扩展，提醒您休息和补充水分",
   "version": "0.0.1",
+  "publisher": "johnmelodyme",
   "engines": {
     "vscode": "^1.102.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": ["*"],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -37,5 +38,13 @@
     "typescript": "^5.8.3",
     "@vscode/test-cli": "^0.0.11",
     "@vscode/test-electron": "^2.5.2"
-  }
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/ctkqiang/dev-reminder-fb"
+  },
+  "bugs": {
+    "url": "https://github.com/ctkqiang/dev-reminder-fb/issues"
+  },
+  "homepage": "https://github.com/ctkqiang/dev-reminder-fb"
 }
