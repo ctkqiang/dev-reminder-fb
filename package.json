@@ -1,22 +1,24 @@
 {
-  "name": "dev-reminder--fb-edition-",
+  "name": "devreminderfbedition",
   "displayName": "Dev Reminder (FB edition)",
   "description": "一个柔和的伪娘风格的 VS Code 扩展，提醒您休息和补充水分",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "johnmelodyme",
   "engines": {
-    "vscode": "^1.102.0"
+    "vscode": "^1.100.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": ["*"],
+  "activationEvents": [
+    "*"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "dev-reminder--fb-edition-.helloWorld",
-        "title": "Hello World"
+        "title": "Remind"
       }
     ]
   },
@@ -29,19 +31,19 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.102.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
+    "@types/vscode": "^1.100.0",
     "@typescript-eslint/eslint-plugin": "^8.31.1",
     "@typescript-eslint/parser": "^8.31.1",
-    "eslint": "^9.25.1",
-    "typescript": "^5.8.3",
     "@vscode/test-cli": "^0.0.11",
-    "@vscode/test-electron": "^2.5.2"
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.25.1",
+    "typescript": "^5.8.3"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/ctkqiang/dev-reminder-fb"
+    "type": "git",
+    "url": "https://github.com/ctkqiang/dev-reminder-fb"
   },
   "bugs": {
     "url": "https://github.com/ctkqiang/dev-reminder-fb/issues"
