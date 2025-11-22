@@ -165,7 +165,9 @@ export function activate (context: vscode.ExtensionContext) {
     '🍍 菠萝菠萝～香气扑鼻～快喝口水～',
     '🤸‍♂️ 运动运动～身体棒棒～代码棒棒～',
     '💖 永远爱你～快休息一下，喝口水～'
-  ];
+
+
+    
   ]
 
   function showRandomMessage () {
